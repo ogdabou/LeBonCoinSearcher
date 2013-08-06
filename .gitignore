@@ -1,0 +1,15 @@
+/ogdabou.antracker/.classpath
+
+/ogdabou.antracker/.settings
+
+/ogdabou.antracker/.project
+
+/ogdabou.antracker/target/classes/ogdabou/antracker/*.class
+
+/ogdabou.antracker/target/classes/ogdabou/antracker/common/*.class
+
+/ogdabou.antracker/target/classes/META-INF
+
+/ogdabou.antracker/target/classes/ogdabou/antracker/leboncoin
+
+/ogdabou.antracker/target/test-classes/ogdabou/antracker
