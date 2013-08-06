@@ -67,6 +67,15 @@ public class LeBonCoinCrawler
 		return itemList;
 	}
 	
+	/**
+	 * Process the request if we specify the category.
+	 * 
+	 * @param searchRequest
+	 * @param region
+	 * @param category
+	 * @return
+	 * @throws IOException
+	 */
 	public List<LbcItem> process(final String searchRequest, final String region, final String category)
 			throws IOException
 	{
