@@ -1,6 +1,10 @@
 LeBonCoinSearcher
 =================
 
+I made this because Leboncoin doesn't provide any API to navigate through their items.
+Written in JAVA.
+--
+
 A simple searcher for "Le bon coin" website.
 It's a small Open Source project in a bigger which will try to allo a better buyer search.
 
