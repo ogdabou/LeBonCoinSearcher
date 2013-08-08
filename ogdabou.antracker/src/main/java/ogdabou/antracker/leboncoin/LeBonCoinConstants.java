@@ -1,5 +1,7 @@
 package ogdabou.antracker.leboncoin;
 
+import java.util.ArrayList;
+
 /**
  * Constants used in our LBC crawler.
  * 

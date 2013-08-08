@@ -34,8 +34,12 @@ public class LeBonCoinCrawler
 	}
 	
 	/**
-	 * Process the crawl of a search, passing through all the pages.
+	 * The real process method. It loop on each encountered pages (pageToVisit). If, at the beginning, pageToVisit is
+	 * null we admit that we want to search in all the categories, so the url is different.
 	 * 
+	 * @param searchRequest
+	 * @param region
+	 * @return
 	 * @throws IOException
 	 */
 	public List<LbcItem> process(final String searchRequest, final String region)
@@ -68,7 +72,7 @@ public class LeBonCoinCrawler
 	}
 	
 	/**
-	 * Process the request if we specify the category.
+	 * Process the request if we specify the category. We build the right URL then call the real process method.
 	 * 
 	 * @param searchRequest
 	 * @param region
@@ -84,7 +88,9 @@ public class LeBonCoinCrawler
 	}
 	
 	/**
-	 * Process for each item page.
+	 * Each item page is processed there. We get the <code>pageList</code> which contains every URL to every items in
+	 * the current page. Then we extract informations. We can't get the phoneNumber as a String or a Long because it is
+	 * store as an image on LBC.
 	 * 
 	 * @param pageList
 	 * @throws IOException
