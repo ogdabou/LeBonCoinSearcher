@@ -3,6 +3,7 @@ LeBonCoinSearcher
 
 I made this because Leboncoin doesn't provide any API to navigate through their items.
 Written in JAVA.
+
 --
 
 A simple searcher for "Le bon coin" website.
